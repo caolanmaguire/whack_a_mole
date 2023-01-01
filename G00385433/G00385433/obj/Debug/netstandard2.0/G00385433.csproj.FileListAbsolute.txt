@@ -1,0 +1,15 @@
+C:\Users\pauli\source\repos\G00385433\G00385433\G00385433\obj\Debug\netstandard2.0\G00385433.csproj.AssemblyReference.cache
+C:\Users\pauli\source\repos\G00385433\G00385433\G00385433\obj\Debug\netstandard2.0\G00385433.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pauli\source\repos\G00385433\G00385433\G00385433\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\pauli\source\repos\G00385433\G00385433\G00385433\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\pauli\source\repos\G00385433\G00385433\G00385433\obj\Debug\netstandard2.0\G00385433.AssemblyInfoInputs.cache
+C:\Users\pauli\source\repos\G00385433\G00385433\G00385433\obj\Debug\netstandard2.0\G00385433.AssemblyInfo.cs
+C:\Users\pauli\source\repos\G00385433\G00385433\G00385433\obj\Debug\netstandard2.0\G00385433.csproj.CoreCompileInputs.cache
+C:\Users\pauli\source\repos\G00385433\G00385433\G00385433\bin\Debug\netstandard2.0\G00385433.deps.json
+C:\Users\pauli\source\repos\G00385433\G00385433\G00385433\bin\Debug\netstandard2.0\G00385433.dll
+C:\Users\pauli\source\repos\G00385433\G00385433\G00385433\bin\Debug\netstandard2.0\ref\G00385433.dll
+C:\Users\pauli\source\repos\G00385433\G00385433\G00385433\bin\Debug\netstandard2.0\G00385433.pdb
+C:\Users\pauli\source\repos\G00385433\G00385433\G00385433\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\pauli\source\repos\G00385433\G00385433\G00385433\obj\Debug\netstandard2.0\G00385433.dll
+C:\Users\pauli\source\repos\G00385433\G00385433\G00385433\obj\Debug\netstandard2.0\ref\G00385433.dll
+C:\Users\pauli\source\repos\G00385433\G00385433\G00385433\obj\Debug\netstandard2.0\G00385433.pdb

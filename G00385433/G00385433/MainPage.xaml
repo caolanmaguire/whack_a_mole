@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="G00385433.MainPage">
+
+
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="#9cc372">
+        <Frame BackgroundColor="#869110" Padding="10" CornerRadius="0">
+            <Label Text="Whack-A-Mole!" FontSize="Medium" TextColor="White" HorizontalOptions="Center"/>
+        </Frame>
+
+
+        <StackLayout Orientation="Horizontal" >
+            <Label Text="Score: " Margin="2, 2, 1, 2"/>
+            <Label x:Name="LblScore" Text="0" Margin="1, 2, 2, 2"/>
+
+            <Label Text="Countdown: " Margin="2, 2, 1, 2"/>
+            <Label x:Name="LblCountdown" Text="0" Margin="1, 2, 2, 2"/>
+        </StackLayout>
+
+
+        <Label x:Name="FinishedGameAlert" Text=""/>
+
+        <Grid x:Name="GridMoles3" Background="background.png" WidthRequest="300" HeightRequest="300" BackgroundColor="SlateGray" IsVisible="True" IsEnabled="True">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <!--image is png but still has background-> was unable to fix issue-->
+            <ImageButton x:Name="ImgBtnMole" BackgroundColor="AntiqueWhite" Source="mole1.png" Grid.Row="1" Grid.Column="0" HeightRequest="80" WidthRequest="80" HorizontalOptions="Center" VerticalOptions="Center" IsVisible="False" Clicked="ImgBtnMole_Clicked"/>
+        </Grid>
+
+        <Grid x:Name="GridMoles5" Background="background.png" WidthRequest="300" HeightRequest="300" BackgroundColor="DarkSlateBlue" IsVisible="False" IsEnabled="False">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <ImageButton x:Name="ImgBtnMole1" Source="mole1.png" Grid.Row="3" Grid.Column="1" HeightRequest="95" WidthRequest="95" HorizontalOptions="Center" VerticalOptions="Center" IsVisible="False" Clicked="ImgBtnMole1_Clicked"/>
+        </Grid>
+
+        <StackLayout Orientation="Horizontal" >
+            <Button x:Name="BtnTimerStart" Text="Start" HorizontalOptions="Start" Margin="5" Clicked="BtnTimerStart_Clicked" BackgroundColor="SaddleBrown" CornerRadius="0" />
+            <Button x:Name="NewGame" Text="New Game" HorizontalOptions="Center" Margin="5" Clicked="NewGame_Clicked" BackgroundColor="#b6c6e7" CornerRadius="0"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" >
+            <Button x:Name="BtnTest" Text="Change Mole Position" HorizontalOptions="End" Margin="5" Clicked="BtnTest_Clicked" BackgroundColor="#b6c6e7" CornerRadius="0"/>
+            <Button x:Name="BtnSwitch" Text="5x5" HorizontalOptions="Center" Margin="5" Clicked="BtnSwitch_Clicked" BackgroundColor="#b6c6e7" CornerRadius="0"/>
+        </StackLayout>
+
+        </StackLayout>
+</ContentPage>
